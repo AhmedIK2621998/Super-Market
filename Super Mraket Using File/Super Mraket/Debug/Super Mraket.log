@@ -1,0 +1,20 @@
+﻿Build started 8/5/2019 3:17:06 PM.
+     1>Project "E:\programs\Super Mraket\Super Mraket\Super Mraket.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\" /Fd"Debug\vc140.pdb" /Gd /TP /analyze- /errorReport:prompt Source.cpp
+         Source.cpp
+     1>e:\programs\super mraket\super mraket\source.cpp(39): error C4996: 'getch': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _getch. See online help for details.
+         c:\program files (x86)\windows kits\10\include\10.0.10150.0\ucrt\conio.h(452): note: see declaration of 'getch'
+     1>e:\programs\super mraket\super mraket\source.cpp(57): error C3867: 'products::pnom': non-standard syntax; use '&' to create a pointer to member
+     1>e:\programs\super mraket\super mraket\source.cpp(57): error C2446: '==': no conversion from 'int' to 'int (__thiscall products::* )(void)'
+         e:\programs\super mraket\super mraket\source.cpp(57): note: There are no conversions from integral values to pointer-to-member values
+     1>e:\programs\super mraket\super mraket\source.cpp(57): error C2040: '==': 'int (__thiscall products::* )(void)' differs in levels of indirection from 'int'
+     1>e:\programs\super mraket\super mraket\source.cpp(77): error C3867: 'products::pnom': non-standard syntax; use '&' to create a pointer to member
+     1>e:\programs\super mraket\super mraket\source.cpp(77): error C2446: '!=': no conversion from 'int' to 'int (__thiscall products::* )(void)'
+         e:\programs\super mraket\super mraket\source.cpp(77): note: There are no conversions from integral values to pointer-to-member values
+     1>e:\programs\super mraket\super mraket\source.cpp(77): error C2040: '!=': 'int (__thiscall products::* )(void)' differs in levels of indirection from 'int'
+     1>Done Building Project "E:\programs\Super Mraket\Super Mraket\Super Mraket.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:00.44
